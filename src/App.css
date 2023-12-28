@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    padding-top: 50px;
+}
+.para h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main{
+    background-color: white;
+    color: black;
+}
+main h1{
+   padding-left: 50px;
+   font-weight: 600;
+   font-size: 32px;
+   text-transform: uppercase;
+   margin: 0;
+}
+main p{
+    padding: 10px 50px 10px 50px;
+}
+main .content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+main .pg-header{
+    padding: 60px 0;
+    background-color: #e6e6e6;
+}
+/*  */
+.list li{
+    list-style: none;
+    
+}
+.list li{
+    display: inline;
+    position: relative;
+    left: 1200px;
+    top: -50px;
+}
+.prodcts-active{
+    color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homelink{
+    color: black;
+}  
+.imagecontainer img{
+    width: 300px;
+    height: 300px;
+}
+.names{
+    background-color: white;
+    color: black;
+}
+.names h1{
+    padding: 30px 0;
+    background-color: #e6e6e6;
+    padding-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card .img-wrpa{
+    
+    margin: 0 auto;
+    object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.card .img-wrpa{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#linkallid{
+    text-decoration: none;
+    color: white;
 }
